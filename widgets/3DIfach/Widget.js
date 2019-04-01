@@ -4,7 +4,7 @@ define(['dojo/_base/declare', 'jimu/BaseWidget'],
     return declare([BaseWidget], {
       // Custom widget code goes here
 
-      baseClass: 'jimu-widget-Widget3DIfach',
+      baseClass: 'jimu-widget-3DIfach',
 
       postCreate: function() {
         this.inherited(arguments);

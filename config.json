@@ -193,13 +193,13 @@
         "icon": "widgets/Slides/images/icon.png"
       },
       {
-        "name": "Widget3DIfach",
+        "name": "3DIfach",
         "version": "2.11",
         "IsController": false,
-        "uri": "widgets/Widget3DIfach/Widget",
+        "uri": "widgets/3DIfach/Widget",
         "index": 3,
-        "id": "widgets_Widget3DIfach_Widget_22",
-        "url": "/webappbuilder/apps/6/widgets/Widget3DIfach/"
+        "id": "widgets_3DIfach_Widget_22",
+        "url": "/webappbuilder/apps/6/widgets/3DIfach/"
       },
       {
         "name": "BasemapGallery",
