@@ -1,0 +1,232 @@
+{
+  "theme": {
+    "name": "Ifach3DTheme",
+    "styles": [
+      "default",
+      "style2",
+      "style3"
+    ],
+    "version": "2.11",
+    "sharedTheme": {
+      "isPortalSupport": true,
+      "useHeader": false,
+      "useLogo": false
+    }
+  },
+  "portalUrl": "https://mastergis-g4.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "<div class=\"attribute-custom-style\"><font size=\"5\">Modelo 3D Peñón de Ifach</font></div>",
+  "subtitle": "",
+  "keepAppState": false,
+  "logo": "images/logo.png",
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/Ifach3DTheme/widgets/AnchorBarController/Widget",
+        "position": {
+          "bottom": 40,
+          "height": 40,
+          "relativeTo": "map",
+          "zIndex": 0
+        },
+        "version": "2.11",
+        "id": "themes_Ifach3DTheme_widgets_AnchorBarController_Widget_13",
+        "url": "/webappbuilder/apps/6/themes/Ifach3DTheme/widgets/AnchorBarController/",
+        "icon": "themes/Ifach3DTheme/widgets/AnchorBarController/images/icon.png",
+        "name": "AnchorBarController"
+      },
+      {
+        "uri": "themes/Ifach3DTheme/widgets/Header/Widget",
+        "position": {
+          "left": 9,
+          "top": 30,
+          "width": 670,
+          "height": 46,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "themes_Ifach3DTheme_widgets_Header_Widget_14",
+        "url": "/webappbuilder/apps/6/themes/Ifach3DTheme/widgets/Header/",
+        "icon": "themes/Ifach3DTheme/widgets/Header/images/icon.png",
+        "hasSearchOverlayed": true,
+        "name": "Header"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "left": 17,
+          "top": 98,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_ZoomSlider_Widget_15",
+        "url": "/webappbuilder/apps/6/widgets/ZoomSlider/",
+        "icon": "widgets/ZoomSlider/images/icon.png",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "position": {
+          "left": 17,
+          "top": 173,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_FullScreen_Widget_16",
+        "url": "/webappbuilder/apps/6/widgets/FullScreen/",
+        "icon": "widgets/FullScreen/images/icon.png",
+        "name": "FullScreen"
+      },
+      {
+        "uri": "widgets/Compass/Widget",
+        "position": {
+          "left": 17,
+          "top": 211,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_Compass_Widget_17",
+        "url": "/webappbuilder/apps/6/widgets/Compass/",
+        "icon": "widgets/Compass/images/icon.png",
+        "name": "Compass"
+      },
+      {
+        "uri": "widgets/Home/Widget",
+        "position": {
+          "left": 17,
+          "top": 249,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_Home_Widget_18",
+        "url": "/webappbuilder/apps/6/widgets/Home/",
+        "icon": "widgets/Home/images/icon.png",
+        "name": "Home"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 10,
+          "bottom": 24,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_Coordinate_Widget_19",
+        "url": "/webappbuilder/apps/6/widgets/Coordinate/",
+        "icon": "widgets/Coordinate/images/icon.png",
+        "name": "Coordinate"
+      },
+      {
+        "uri": "widgets/Navigate/Widget",
+        "position": {
+          "left": 17,
+          "top": 287,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_Navigate_Widget_20",
+        "url": "/webappbuilder/apps/6/widgets/Navigate/",
+        "icon": "widgets/Navigate/images/icon.png",
+        "name": "Navigate"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.11",
+        "id": "widgets_Splash_Widget_21",
+        "url": "/webappbuilder/apps/6/widgets/Splash/",
+        "icon": "widgets/Splash/images/icon.png",
+        "name": "Splash"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": true,
+    "2D": false,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "2009a13745834458b0d810cd10ae9172",
+    "mapOptions": {},
+    "id": "map",
+    "portalUrl": "https://mastergis-g4.maps.arcgis.com"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/Ifach3DTheme/panels/LaunchpadPanel/Panel",
+      "position": {
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Slides/Widget",
+        "version": "2.11",
+        "id": "widgets_Slides_Widget_12",
+        "name": "Slides",
+        "url": "/webappbuilder/apps/6/widgets/Slides/",
+        "position": {
+          "relativeTo": "map"
+        },
+        "index": 2,
+        "icon": "widgets/Slides/images/icon.png"
+      },
+      {
+        "name": "Widget3DIfach",
+        "version": "2.11",
+        "IsController": false,
+        "uri": "widgets/Widget3DIfach/Widget",
+        "index": 3,
+        "id": "widgets_Widget3DIfach_Widget_22",
+        "url": "/webappbuilder/apps/6/widgets/Widget3DIfach/"
+      },
+      {
+        "name": "BasemapGallery",
+        "version": "2.11",
+        "uri": "widgets/BasemapGallery/Widget",
+        "index": 5,
+        "id": "widgets_BasemapGallery_Widget_23",
+        "url": "/webappbuilder/apps/6/widgets/BasemapGallery/"
+      }
+    ],
+    "groups": []
+  },
+  "loadingPage": {
+    "backgroundColor": "#2e8099",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/loading.gif",
+      "width": 500,
+      "height": 263
+    }
+  },
+  "wabVersion": "2.11",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "configWabVersion": "2.11",
+  "logoLink": "http://www.calpe.es/"
+}

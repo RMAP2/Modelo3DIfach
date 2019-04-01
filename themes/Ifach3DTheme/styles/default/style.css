@@ -1,0 +1,30 @@
+@import 'css/jimu-override.css';
+@import 'css/jimu-theme.css';
+@import 'css/launchpad.css';
+@import 'icons/styles.css';
+.esriPopup .titlePane {
+  background-color: #3b8fc4;
+}
+
+.jimu-widget-header   {
+  top:25px;
+}
+
+.esri-compass{
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: #292929;
+}
+
+#widgets_Daylight_Widget_11_panel{
+  top: 80px;
+  right: -700px;
+  bottom: auto;
+  width: 350px;
+  height: 480px;
+  padding: 0px;
+  margin: auto;
+  z-index: 101;
+  position: absolute;
+  opacity: 1;
+  touch-action: manipulation;
+}

@@ -1,0 +1,25 @@
+@import url("panels/LaunchpadPanel/style.css");
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
+
+.jimu-main-font{
+  font-family: 'Amatic SC', cursive!important;
+}
+
+.jimu-widget-onscreen-icon{
+  width: 32px !important;
+  height: 32px !important;
+}
+
+.card-image-caption {
+  background: rgba(255,255,255,0.8);
+  color: #4c4c4c;
+  font-style: normal;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  font-size: 1rem !important;
+  line-height: 1.5;
+  padding: .35rem 1.25rem .35rem 1.25rem;
+}

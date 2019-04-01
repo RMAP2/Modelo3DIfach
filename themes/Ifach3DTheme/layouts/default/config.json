@@ -1,0 +1,89 @@
+{
+  "widgetOnScreen": {
+    "widgets": [{
+      "uri": "themes/Ifach3DTheme/widgets/AnchorBarController/Widget",
+      "position": {
+        "bottom": 40,
+        "height": 40,
+        "relativeTo": "map",
+        "zIndex": 0
+      },
+      "version": "2.11"
+    }, {
+      "uri": "themes/Ifach3DTheme/widgets/Header/Widget",
+      "position": {
+        "left": 9,
+        "top": 30,
+        "width": 670,
+        "height": 46,
+        "relativeTo": "map"
+      },
+      "version": "2.11"
+    },{
+      "uri": "widgets/ZoomSlider/Widget",
+      "position": {
+        "left": 17,
+        "top": 98
+      },
+      "version": "2.11"
+    }, {
+      "uri": "widgets/FullScreen/Widget",
+      "position": {
+        "left": 17,
+        "top": 173
+      },
+      "version": "2.11"
+    }, {
+      "uri": "widgets/Compass/Widget",
+      "position": {
+        "left": 17,
+        "top": 211
+      },
+      "version": "2.11"
+    }, {
+      "uri": "widgets/Home/Widget",
+      "position": {
+        "left": 17,
+        "top": 249
+      },
+      "version": "2.11"
+    }, {
+      "uri": "widgets/Coordinate/Widget",
+      "position": {
+        "left": 10,
+        "bottom": 24
+      },
+      "version": "2.11"
+    }, {
+      "uri": "widgets/Navigate/Widget",
+      "position": {
+        "left": 17,
+        "top": 287
+      },
+      "version": "2.11"
+    }, {
+      "uri": "widgets/Splash/Widget",
+      "visible": false,
+      "position": {
+        "relativeTo": "browser"
+      },
+      "version": "2.11"
+    }]
+  },
+
+  "map": {
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    }
+  },
+
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/Ifach3DTheme/panels/LaunchpadPanel/Panel"
+
+    }
+  }
+}
